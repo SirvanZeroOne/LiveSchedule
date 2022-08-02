@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "B Koodak";
+
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    direction: rtl;
+    background: #2f3640;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.widgetHeader {
+    width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: x-large;
+    color: #718093;
+}
+
+.widgetBody {
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #718093;
+}
+
+.dateSeprator {
+    margin: 0 auto;
+    text-align: center;
+    background: #353b48;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: larger;
+}
+
+.broadcastMatch {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.broadcastMatchTime {
+    float: right;
+    width: 20%;
+    text-align:
+    center;
+    font-size: large;
+}
+
+.broadcastMatchHost {
+    width: 20%;
+    text-align:
+    left;
+    font-size: large;
+}
+
+.broadcastMatchGuest {
+    width: 20%;
+    text-align:
+    right;
+    font-size: large;
+    }
+
+.broadcastInfo {
+    width: 20%;
+    text-align:
+    center;
+    font-size: medium;
+    }
+
+.broadcastTvs {
+    float: left;
+    width: 20%;
+    text-align:
+    center;
+    font-size: small;
+}
+
+.broadcastMatchNoTeams {
+text-align:center;
+}
+.broadcastMatch:hover{
+    background:#f5f6fa;
+    transition:.5s all ease;
+}
+.broadcastMatchHost::after{
+    content:" -"
+}
+.broadcastMatchGuest::before{
+    content:"- "
+}
